@@ -62,5 +62,4 @@ Query Parameters:
 |-----------|------|----------|-------------|
 | `q`       | string | Yes | Text to search for (case-insensitive) |
 | `page`    | int    | No  | Page number (default: 1) |
-| `limit`   | int    | No  | Number of results per page (default: 
-10) |
+| `limit`   | int    | No  | Number of results per page (default:10) |
