@@ -7,8 +7,6 @@ Swagger docs: [https://aurora-api-phf1.onrender.com/docs](https://aurora-api-phf
 
 ### Example API Calls
 - Search for "Paris": q=Paris, page=1, limit=5
-https://aurora-api-phf1.onrender.com/search?q=Paris&page=1&limit=5
-
 
 ### Local Setup Instructions
 1. Clone the repository:
