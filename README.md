@@ -33,7 +33,5 @@ Search messages containing a query string and return paginated results.
 
 **Example Request:**
 ```http
-GET /search?q=Paris&page=1&limit=5
+GET /search q=Paris, page=1, limit=5
 
-- Precompute search indexes  
-- Use only required fields in responses
