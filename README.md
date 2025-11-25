@@ -28,14 +28,14 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```bash
 http://127.0.0.1:8000/docs
 ```
-###Overview
+##Overview
 
 This is a simple search engine API built on top of the /messages endpoint.
 It allows querying messages by text and returns paginated results.
 
 The API is designed for fast, case-insensitive search with caching for low-latency responses.
 
-###Features
+##Features
 
 - Case-insensitive search on message text
 
@@ -51,7 +51,7 @@ The API is designed for fast, case-insensitive search with caching for low-laten
 
 - /update-cache → manually refresh cache
 
-###API Endpoint
+##API Endpoint
 GET /search
 
 Search messages containing a query string and return paginated results.
