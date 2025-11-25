@@ -28,30 +28,30 @@ pip install -r requirements.txt
 ```bash
 http://127.0.0.1:8000/docs
 ```
-Overview
+###Overview
 
 This is a simple search engine API built on top of the /messages endpoint.
 It allows querying messages by text and returns paginated results.
 
 The API is designed for fast, case-insensitive search with caching for low-latency responses.
 
-Features
+###Features
 
-Case-insensitive search on message text
+- Case-insensitive search on message text
 
-Paginated results using page and limit parameters
+- Paginated results using page and limit parameters
 
-In-memory caching for fast responses (<30ms)
+- In-memory caching for fast responses (<30ms)
 
-Auto-refresh cache every 5 minutes
+- Auto-refresh cache every 5 minutes
 
-Optional endpoints for cache management (if implemented):
+- Optional endpoints for cache management (if implemented):
 
-/cache-status → check current cache size
+- /cache-status → check current cache size
 
-/update-cache → manually refresh cache
+- /update-cache → manually refresh cache
 
-API Endpoint
+###API Endpoint
 GET /search
 
 Search messages containing a query string and return paginated results.
@@ -62,4 +62,5 @@ Query Parameters:
 |-----------|------|----------|-------------|
 | `q`       | string | Yes | Text to search for (case-insensitive) |
 | `page`    | int    | No  | Page number (default: 1) |
-| `limit`   | int    | No  | Number of results per page (default: 10) |
+| `limit`   | int    | No  | Number of results per page (default: 
+10) |
