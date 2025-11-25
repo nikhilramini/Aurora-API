@@ -2,9 +2,12 @@
 
 ## Public Deployment
 The API is deployed publicly at:  
-**[https://aurora-api-phf1.onrender.com/docs](https://aurora-api-phf1.onrender.com/docs)**
+**[https://aurora-api-phf1.onrender.com](https://aurora-api-phf1.onrender.com)**  
+Swagger docs: [https://aurora-api-phf1.onrender.com/docs](https://aurora-api-phf1.onrender.com/docs)
+
 ### Example API Calls
 - Search for "Paris": q=Paris, page=1, limit=5
+https://aurora-api-phf1.onrender.com/search?q=Paris&page=1&limit=5
 
 
 ### Local Setup Instructions
@@ -12,19 +15,19 @@ The API is deployed publicly at:
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-
-Install dependencies:
-
+```
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
-
-Run locally:
-
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-
-Open Swagger docs:
-
+```
+3. Run locally:
+```bash
+pip install -r requirements.txt
+```
+4. Open Swagger docs:
+```bash
 http://127.0.0.1:8000/docs
-
+```
 Overview
 
 This is a simple search engine API built on top of the /messages endpoint.
@@ -55,9 +58,8 @@ Search messages containing a query string and return paginated results.
 
 Query Parameters:
 
-Parameter	Type	Required	Description
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `q`       | string | Yes | Text to search for (case-insensitive) |
 | `page`    | int    | No  | Page number (default: 1) |
-| `limit`   | int    | No  | Number of results per page (default: 10) | 10)
+| `limit`   | int    | No  | Number of results per page (default: 10) |
