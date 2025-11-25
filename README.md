@@ -20,7 +20,8 @@ It allows querying messages by text and returns paginated results.
 - `limit` (optional, default=10): number of results per page  
 
 **Example:**
-GET /search?q=Paris&page=1&limit=5
+GET /search
+q=Paris, page=1, limit=5
 
 ## Design Notes
 1. In-memory filtering (current implementation) -> fast, simple  
