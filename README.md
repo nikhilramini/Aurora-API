@@ -13,8 +13,8 @@ https://aurora-api-phf1.onrender.com/search?q=Paris&page=1&limit=5
 ### Local Setup Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/nikhilramini/Aurora-API.git
+cd Aurora-API
 ```
 2. Install dependencies:
 ```bash
