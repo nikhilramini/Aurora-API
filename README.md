@@ -2,8 +2,7 @@
 
 ## Public Deployment
 The API is deployed publicly at:  
-**[https://aurora-api-phf1.onrender.com](https://aurora-api-phf1.onrender.com)**  
-Swagger docs: [https://aurora-api-phf1.onrender.com/docs](https://aurora-api-phf1.onrender.com/docs)
+[https://aurora-api-phf1.onrender.com/docs](https://aurora-api-phf1.onrender.com/docs)
 
 ### Example API Calls
 - Search for "Paris": q=Paris, page=1, limit=5
